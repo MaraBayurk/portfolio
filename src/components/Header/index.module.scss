@@ -1,0 +1,31 @@
+$azul-oscuro: #091848;
+$azul-claro: #00315f;
+$azul-celeste: #0981b6;
+$rosa-oscuro: #ef8997;
+$rosa-claro: #ffb8b8;
+$blanco: #fff;
+
+
+.header{
+    background-color:$rosa-oscuro;
+    position: fixed;
+    width: 100vw;
+    height: 2rem;
+    nav{
+      display:flex;
+      height: 100%;
+      align-items: center;
+      ul{
+        display:flex;
+        width: 100%;
+        justify-content: flex-end;
+        list-style: none;
+        margin: 0;
+        padding: 0 1rem;
+        li{
+          color: #000;
+          margin: 0 1rem;
+        }
+      }
+    }
+  }
