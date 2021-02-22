@@ -4,28 +4,3 @@ $azul-celeste: #0981b6;
 $rosa-oscuro: #ef8997;
 $rosa-claro: #ffb8b8;
 
-.app{
-    display: grid;
-    grid-template-rows: auto 2rem;
-    height: 200vh;
-    .main{
-      background-color: $azul-oscuro;
-      .container_brand{
-        display: flex;
-        height: 40%;
-        .container_brand_img{
-          height: 100%;
-          img{
-            height: 100%
-          }
-        }
-        .container_brand_text{
-
-        }
-      }
-    }
-    .footer{
-      background-color: $azul-celeste;
-    }
-}
-

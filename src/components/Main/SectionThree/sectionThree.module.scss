@@ -1,0 +1,33 @@
+$azul-oscuro: #091848;
+$azul-claro: #00315f;
+$azul-celeste: #0981b6;
+$rosa-oscuro: #ef8997;
+$rosa-claro: #ffb8b8;
+$blanco: #fff;
+
+
+.container_first{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    .container_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: inherit;
+      background-color: $azul-celeste;
+      color: $rosa-claro;
+      padding-top: 20rem;
+      .img{
+        width: 100%;
+        
+      }
+        h1{
+
+        }
+        h3{
+
+        }
+    }
+}

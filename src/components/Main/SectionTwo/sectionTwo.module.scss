@@ -1,0 +1,38 @@
+$azul-oscuro: #091848;
+$azul-claro: #00315f;
+$azul-celeste: #0981b6;
+$rosa-oscuro: #ef8997;
+$rosa-claro: #ffb8b8;
+$blanco: #fff;
+
+
+.container_second{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: $azul-claro;
+    .container_img{
+        display: flex;
+        justify-content: center;
+        .img{
+width: 20rem;
+height: 30rem;
+margin: 15rem  5rem 15rem 15rem;
+        }
+
+    }
+    .container_description{
+        display: flex;
+        justify-content: center;
+        p{
+width: 30rem;
+margin: 5rem 5rem;
+justify-content: center;
+margin: 15rem  15rem 15rem 5rem;
+font-size: x-large;
+color: $rosa-claro;
+        }
+
+    }
+}
