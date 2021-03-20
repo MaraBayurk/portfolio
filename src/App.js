@@ -8,7 +8,6 @@ function App(prop) {
   console.log(prop);
   return (
     <div className= {styles.app}>
-     <Header/>
      <Main/>
     </div>
   );

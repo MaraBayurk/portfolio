@@ -5,27 +5,33 @@ $rosa-oscuro: #ef8997;
 $rosa-claro: #ffb8b8;
 $blanco: #fff;
 
-
-.container_first{
-
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    .container_title{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: inherit;
-      background-color: $azul-oscuro;
-    
-      padding-top: 20rem;
-        h1{
-          font-size: xxx-large;
-          color: $rosa-oscuro;
-        }
-        h3{
-          font-size: xx-large;
-          color:$rosa-claro;
-        }
-    }
+.containerOne{
+  display: grid;
+  grid-template-columns: 40% auto;
+  align-items: center;
+  background-color: #d9d9d9;
+  height: 30rem;
+  .container_img{
+      display: flex;
+      justify-content: center;
+      .img{
+          width: 20rem;
+          height: 20rem;
+      }
+  }
+  .containerName{
+      align-items: center;
+      flex-direction: column;
+      margin: 3rem;
+      h1{
+          font-size: 5rem;
+          text-align: right;
+          color: #545454;
+      }
+      h3{
+          font-size: 3rem;
+          text-align: right;
+          color: #fff;
+      }
+  }
 }

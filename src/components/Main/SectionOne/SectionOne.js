@@ -1,15 +1,19 @@
 
 import styles from './sectionOne.module.scss'
-import fondo from '../../../fondouno.jpg'
+import imagen from '../../../foto.jpeg'
+
 
 export default function SectionOne(){
     return(
-        <div className={styles.container_first}>
-
-            <div className={styles.container_title}>
-                <h1>Mara Valentina Bayurk</h1>
-                <h3>Full Stack Developer</h3>
+      <section className={styles.containerOne}>
+            <div className={styles.container_img}>
+                <img src={imagen} className={styles.img}/>
             </div>
-        </div>
+            <div className={styles.containerName}>
+              <h1>Mara Valentina Bayurk</h1>
+              <h3>Full Stack Developer</h3>
+            </div>
+        </section>
+
     )
 }

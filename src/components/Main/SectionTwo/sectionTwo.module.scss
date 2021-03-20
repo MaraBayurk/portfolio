@@ -5,34 +5,20 @@ $rosa-oscuro: #ef8997;
 $rosa-claro: #ffb8b8;
 $blanco: #fff;
 
-
-.container_second{
-
-    width: 100vw;
-    height: 100vh;
+.containerAboutMe{
     display: flex;
-    background-color: $azul-claro;
-    .container_img{
-        display: flex;
-        justify-content: center;
-        .img{
-width: 20rem;
-height: 30rem;
-margin: 15rem  5rem 15rem 15rem;
+    flex-direction: column;
+    height: 13rem;
+    div{
+        margin: 1rem 3rem;
+        h2{
+            font-size: 2rem;
+            color:#ffbd59;
         }
-
-    }
-    .container_description{
-        display: flex;
-        justify-content: center;
         p{
-width: 30rem;
-margin: 5rem 5rem;
-justify-content: center;
-margin: 15rem  15rem 15rem 5rem;
-font-size: x-large;
-color: $rosa-claro;
-        }
+            font-size: 1.3rem;
+            color:rgb(230, 230, 230);
 
+        }
     }
 }
