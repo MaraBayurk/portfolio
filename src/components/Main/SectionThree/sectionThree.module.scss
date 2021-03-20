@@ -1,33 +1,75 @@
-$azul-oscuro: #091848;
-$azul-claro: #00315f;
-$azul-celeste: #0981b6;
-$rosa-oscuro: #ef8997;
-$rosa-claro: #ffb8b8;
-$blanco: #fff;
+$celeste: #46867D;
+$naranja-claro: #ffbd59;
+$naranja-oscuro: #FE6625;
+$marron: #34322a;
+$gris: #525252 ;
+$gris-claro: #d9d9d9;
 
-
-.container_first{
-
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    .container_title{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: inherit;
-      background-color: $azul-celeste;
-      color: $rosa-claro;
-      padding-top: 20rem;
-      .img{
-        width: 100%;
-        
+.containerProjects{
+  display: flex;
+  flex-direction: column;
+  background-color: #4c4c4c;
+  border-top: 4px solid $naranja-oscuro;
+  .containerTitle{
+      margin: 1rem 3rem;
+      padding-top: 2rem;
+      h2{
+          font-size: 2rem;
+          color:$naranja-oscuro;
       }
-        h1{
+      .containerCard{
+          display: grid;
+          grid-template-columns: 50% 50%;
+          border-radius: 20px;
+          margin: 4rem;
+          background-color: #9e9e9e;
+          box-shadow: 1px 3px 7px 0px black;
+          .containerImg{    
+              height: 100%;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              align-self: center;
+              justify-self: center;
+              align-items: center;
+              place-content: center;
 
-        }
-        h3{
-
-        }
-    }
+              a{
+                  text-align: center;        
+                  img{
+                      width: 100%;
+                      border-radius: 20px 0 0 20px;
+                  }
+              }
+          }
+          .description{
+              display: flex;
+              height: 100%;
+              flex-direction: column;
+              justify-content: center;
+              padding: 1.3rem;
+              place-self: center;
+              border-radius: 0 20px 20px 0;
+              background-color: black;
+              h2{
+                  font-size: 2rem;
+                  align-self: center;
+                  color: $naranja-oscuro;
+                  padding-bottom: 1.5rem;
+              }
+              p{
+                  font-size: 1rem;
+                  color: #bfbfbf;
+                  padding-left: 1rem;
+                  padding-top: 1rem;
+                  font-weight: 500;
+                  a{
+                      text-decoration: none;
+                      color: $naranja-oscuro;
+                      font-weight: 700;
+                  }
+              }
+          }
+      }
+  }
 }

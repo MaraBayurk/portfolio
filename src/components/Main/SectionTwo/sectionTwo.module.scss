@@ -1,24 +1,28 @@
-$azul-oscuro: #091848;
-$azul-claro: #00315f;
-$azul-celeste: #0981b6;
-$rosa-oscuro: #ef8997;
-$rosa-claro: #ffb8b8;
+$celeste: #46867D;
+$naranja-claro: #ffbd59;
+$naranja-oscuro: #FE6625;
+$marron: #34322a;
+$gris: #525252 ;
+$gris-claro: #d9d9d9;
 $blanco: #fff;
 
 .containerAboutMe{
     display: flex;
     flex-direction: column;
-    height: 13rem;
+    padding-top: 2rem;
+    border-top: 4px solid #ffbd59;
     div{
         margin: 1rem 3rem;
         h2{
             font-size: 2rem;
             color:#ffbd59;
+            margin-bottom: 1rem;
         }
         p{
             font-size: 1.3rem;
             color:rgb(230, 230, 230);
-
+            padding-left: 1rem;
+            line-height: 2.5rem
         }
     }
 }

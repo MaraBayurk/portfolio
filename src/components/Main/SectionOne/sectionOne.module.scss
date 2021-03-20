@@ -1,8 +1,10 @@
-$azul-oscuro: #091848;
-$azul-claro: #00315f;
-$azul-celeste: #0981b6;
-$rosa-oscuro: #ef8997;
-$rosa-claro: #ffb8b8;
+$celeste: #46867D;
+$naranja-claro: #ffbd59;
+$naranja-oscuro: #FE6625;
+$marron: #34322a;
+$gris: #525252 ;
+$gris-claro: #d9d9d9;
+
 $blanco: #fff;
 
 .containerOne{
@@ -14,9 +16,32 @@ $blanco: #fff;
   .container_img{
       display: flex;
       justify-content: center;
-      .img{
-          width: 20rem;
-          height: 20rem;
+      div{
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+          .corner{
+              border: 1px solid black;
+              width: 20rem;
+              height: 20rem;
+              position: absolute;
+              top:0;
+              transform: rotate(45deg);
+              z-index: 500;
+             .cornerdiv{
+                border: dotted;
+                 width: 18rem;
+                 height: 18rem;
+                 margin: 15px;
+             }
+          }
+          .img{
+              width: 20rem;
+              height: 20rem;
+              position: relative;
+              z-index: 1000;
+              border-radius: 0 30%;
+          }
       }
   }
   .containerName{
