@@ -1,7 +1,9 @@
-import styles from './main.module.scss'
-import SectionOne from './SectionOne/SectionOne'
-import SectionTwo from './SectionTwo/SectionTwo'
-import SectionThree from './SectionThree/SectionThree'
+import styles from './main.module.scss';
+import SectionOne from './SectionOne/SectionOne';
+import SectionTwo from './SectionTwo/SectionTwo';
+import SectionThree from './SectionThree/SectionThree';
+import SectionFour from './SectionFour/SectionFour';
+import SectionFive from './SectionFive/SectionFive';
 
 export default function Main(){
 
@@ -10,14 +12,8 @@ export default function Main(){
           <SectionOne/>
           <SectionTwo/>
           <SectionThree/>
-          <section className={styles.containerTech}>
-            <div className={styles.containerTitle}>
-              <h2><b>Tecnologías</b></h2>
-            </div>
-            <div className={styles.tech}>
-            
-            </div>
-          </section>
+         <SectionFour/>
+         <SectionFive/>
         </div>
     )
 }

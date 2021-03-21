@@ -8,15 +8,17 @@ $gris-claro: #d9d9d9;
 .containerProjects{
   display: flex;
   flex-direction: column;
-  background-color: #4c4c4c;
-  border-top: 4px solid $naranja-oscuro;
+  background-color: #222222;
+  border-top: 4px solid #222222;
   .containerTitle{
-      margin: 1rem 3rem;
+      background-color: $naranja-oscuro;
+      padding: 1rem 3rem;
       padding-top: 2rem;
       h2{
-          font-size: 2rem;
-          color:$naranja-oscuro;
+        font-size: 2rem;
+        color: #222222;
       }
+}
       .containerCard{
           display: grid;
           grid-template-columns: 50% 50%;
@@ -45,6 +47,7 @@ $gris-claro: #d9d9d9;
           .description{
               display: flex;
               height: 100%;
+              width: 100%;
               flex-direction: column;
               justify-content: center;
               padding: 1.3rem;
@@ -71,5 +74,5 @@ $gris-claro: #d9d9d9;
               }
           }
       }
-  }
+
 }

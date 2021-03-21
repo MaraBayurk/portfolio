@@ -4,3 +4,51 @@ $naranja-oscuro: #FE6625;
 $marron: #34322a;
 $gris: #525252 ;
 $gris-claro: #d9d9d9;
+$azul: #013D5B;
+
+.containerTech{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-top: 4px solid black;
+    .containerTitle{
+        padding: 1rem 3rem;
+        padding-top: 2rem;
+        background-color: $naranja-claro;
+        h2{
+            font-size: 2rem;
+            color: black;
+        }
+    }
+    .tech{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-items: center;
+        padding: 0 10rem;
+        margin: 2rem 0;
+        div{
+            border-radius: 20% ;
+            margin: 15px;
+            background-color: $gris-claro;
+            text-align: center;
+            width: 60%;
+            &:hover{
+                transform: scale(1.2);
+            }
+            img{
+                margin: 1.5rem 0;
+                height: 3rem;
+                filter: drop-shadow(2px 4px 6px black); 
+            }
+            h4{
+                font-size: 1.5rem;
+                color: white;
+                background-color: black;
+                margin: 0;
+                padding-bottom: 0.5rem;
+                text-shadow: 2px 3px 10px grey;
+            }
+
+        }
+    }
+}

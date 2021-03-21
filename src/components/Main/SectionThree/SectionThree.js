@@ -9,6 +9,7 @@ export default function SectionThree(){
     <section className={styles.containerProjects}>
         <div className={styles.containerTitle}>
           <h2><b>Proyectos</b></h2>
+        </div>
           <div className={styles.containerCard} >
             <div className={styles.containerImg}>
             <a href="https://kitty-shop.herokuapp.com/" target="_BLANK">
@@ -40,7 +41,7 @@ export default function SectionThree(){
             <p><b>Back:</b> TypeScript, Express, Sequelize, PostgreSql.-</p>
             </div>
           </div>
-        </div>
+
       </section>
     )
 }
