@@ -8,27 +8,78 @@ $gris-claro: #d9d9d9;
 .containerAbout{
     display: flex;
     flex-direction: column;
-    background-color: $gris-claro;
-    border-top: 4px solid $gris-claro;
+    background-color: $naranja-oscuro;
+    border-top: 4px solid $gris;
+
     .containerTitle{
-        background-color: #fff59d;
         padding: 1rem 3rem;
         padding-top: 2rem;
+        background-color: $naranja-oscuro;
+
         h2{
-          font-size: 2rem;
-          color:$gris;
-        }
+            font-size: 2rem;
+            color: black;
+        }       
      }
      .containerContact{
-         display: flex;
-         margin: 4rem 0;
-         align-self: center;
-         div{
-            margin: 0 3rem;
-            filter: drop-shadow(2px 4px 6px black);
-            &:hover{
-                transform: scale(1.1);
+         display: grid;
+         position: relative;
+         z-index: 100;
+         grid-template-columns: 35% 65%;
+         background-color: $gris;
+         padding: 2rem 3rem;
+         .datos{
+            color: $gris-claro;
+            h3{
+                font-size: 1.5rem;
+                padding: 0.7rem 0;
+                text-decoration: none;
+                &:hover{
+                    color:white
+                }
             }
+            h4{
+                font-size: 1.2rem;
+                color: $gris-claro;
+                &:hover{
+                    color:white
+                }
+                a{  
+                     font-size: 1.2rem;
+                    text-decoration: none;
+                    color: $gris-claro;
+                    &:hover{
+                        color:white
+                    }
+                 }
+              }
+         }
+         .images{
+             display: flex;
+             align-items: center;
+             place-content: center;
+             div{
+                padding: 0 1rem;
+                background-color: white;
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0.5rem;
+                &:hover{
+                    background-color: black;
+                    color: $naranja-claro;
+                    transform: scale(1.2);
+                }
+                a{
+                    i{
+                        color: $naranja-oscuro;
+                        font-size: 2rem;
+                    }
+                }
+             }
          }
      }
 }

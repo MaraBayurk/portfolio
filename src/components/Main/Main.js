@@ -12,8 +12,8 @@ export default function Main(){
           <SectionOne/>
           <SectionTwo/>
           <SectionThree/>
-         <SectionFour/>
-         <SectionFive/>
+          <SectionFour/>
+          <SectionFive/>
         </div>
     )
 }

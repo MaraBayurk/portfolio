@@ -11,6 +11,8 @@ import react from '../../../images/tech/react.png'
 import redux from '../../../images/tech/redux.png'
 import sass from '../../../images/tech/sass.png'
 import sequelize from '../../../images/tech/sequelize.png'
+import reactnative from '../../../images/tech/rn.png'
+
 
 export default function SectionFour(){
     return(
@@ -20,55 +22,53 @@ export default function SectionFour(){
         </div>
         <div className={styles.tech}>
             <div>
-                <img src={typescript}/>
+                <img src={typescript} alt=""/>
                 <h4>TypeScript</h4>
             </div>
             <div>
-                <img src={react}/>
+                <img src={react} alt=""/>
                 <h4>React</h4>
             </div> 
             <div>
-                <img src={react}/>
+                <img src={reactnative} alt=""/>
                 <h4>Native</h4>
             </div>
             <div>
-                <img src={node}/>
+                <img src={node} alt=""/>
                 <h4>NodeJs</h4>
             </div>
             <div>
-                <img src={javascript}/>
+                <img src={javascript} alt=""/>
                 <h4>JavaScript</h4>
             </div>
             <div>
-            <img src={html}/>
+            <img src={html} alt=""/>
                 <h4>Html5</h4>
             </div>
             <div>
-                <img src={css}/>
+                <img src={css} alt=""/>
                 <h4>Css3</h4>
             </div>
             <div>
-                <img src={sass}/>
+                <img src={sass} alt=""/>
                 <h4>Sass</h4>
             </div>
             <div>
-                <img src={redux}/>
+                <img src={redux} alt=""/>
                 <h4>Redux</h4>
             </div>
             <div>
-                <img src={express}/>
+                <img src={express} alt=""/>
                 <h4>Express</h4>
             </div>
             <div>
-                <img src={sequelize}/>
+                <img src={sequelize} alt=""/>
                 <h4>Sequelize</h4>
             </div>
             <div>
-                <img src={postgres}/>
+                <img src={postgres} alt=""/>
                 <h4>Postgres</h4>
             </div>
-         
-
         </div>
       </section>
 

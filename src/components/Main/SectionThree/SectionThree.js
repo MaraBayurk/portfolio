@@ -1,8 +1,7 @@
-import styles from './sectionThree.module.scss'
-import home from '../../../images/home.jpeg'
-import catalogue from '../../../images/catalogue.jpeg'
-import checkout from '../../../images/checkout.jpeg'
-import login from '../../../images/login.jpeg'
+import styles from './sectionThree.module.scss';
+import CarruselApp from './CarruselApp.js';
+import CarruselEcommerce from './CarruselEcommerce.js';
+
 
 export default function SectionThree(){
     return(
@@ -12,8 +11,8 @@ export default function SectionThree(){
         </div>
           <div className={styles.containerCard} >
             <div className={styles.containerImg}>
-            <a href="https://kitty-shop.herokuapp.com/" target="_BLANK">
-            <img className={styles.img} src={home} />
+            <a href="https://kitty-shop.herokuapp.com/" target="_BLANK" rel="noreferrer">
+              <CarruselEcommerce/>
             </a>
                
             </div>
@@ -29,8 +28,8 @@ export default function SectionThree(){
           </div>
           <div className={styles.containerCard} >
           <div className={styles.containerImg}>
-            <a>
-            <img className={styles.img} src={login} />
+            <a href="#">
+              <CarruselApp/>
             </a>
             </div>
             <div className={styles.description}>

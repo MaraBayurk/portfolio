@@ -5,10 +5,10 @@ import imagen from '../../../images/foto.jpeg'
 
 export default function SectionOne(){
     return(
-      <section className={styles.containerOne}>
+      <header className={styles.containerOne}>
             <div className={styles.container_img}>
               <div>
-                <img src={imagen} className={styles.img}/>
+                <img src={imagen} className={styles.img} alt=""/>
                 <div className={styles.corner}> 
                    <div className={styles.cornerdiv}></div>
                 </div>
@@ -18,7 +18,7 @@ export default function SectionOne(){
               <h1>Mara Valentina Bayurk</h1>
               <h3>Full Stack Developer</h3>
             </div>
-        </section>
+        </header>
 
     )
 }
