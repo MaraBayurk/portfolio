@@ -6,8 +6,9 @@ export default function SectionTwo(){
         <div>
           <h2><b>Sobre mí</b></h2>
           <p>
-            Disfruto <b>aprender</b>, me gusta todo tipo de proyectos porque cada uno es un <b>desafío</b> diferente y puedo aportar mis conocimientos para <b>ayudar</b> a concluirlos exitosamente. 
-            Buscar <b>soluciones creativas</b> ante las diversas situaciones laborales que se presentan, y <b>crecer</b> tanto personal como profesionalmente son mis objetivos.
+          Desarrolladora Web FullStack, entusiasta por las nuevas tecnologías y los <b>desafíos</b>.
+          Disfruto trabajar en equipo, aportar <b>ideas</b> y <b>soluciones </b>creativas y eficientes.<br/>
+          ¡<b>En busca de nuevos proyectos</b>!
           </p>
         </div>
       </section>
