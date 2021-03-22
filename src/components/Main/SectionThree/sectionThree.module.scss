@@ -1,3 +1,5 @@
+@import "../../../styles/bp.scss";
+
 $celeste: #46867D;
 $naranja-claro: #ffbd59;
 $naranja-oscuro: #FE6625;
@@ -18,7 +20,7 @@ $gris-claro: #d9d9d9;
         font-size: 2rem;
         color: #222222;
       }
-}
+    }
       .containerCard{
           display: grid;
           grid-template-columns: 50% 50%;
@@ -74,5 +76,38 @@ $gris-claro: #d9d9d9;
               }
           }
       }
+}
+@include respond-to("default"){
+.containerProjects{
+    .containerCard{
+        display: grid;
+        border-radius: 20px;
+        margin: 1.5rem;
+        grid-template-columns: none;
+        grid-template-rows: 50% 50%;
+    
+        .containerImg{
+            a{
+                img{
+                    border-radius: 20px 20px 0 0;
+                }
+            }
+        }
+        .description{
+            padding: 0.3rem;
+            border-radius: 0 0 20px 20px;
+            h2{
+                font-size: 1.5rem;
+                padding: 0.5rem ;
+                margin-top: 1rem;
+            }
+            p{
+                font-size: 1rem;
+                padding-left: 0.3rem;
+                padding-top: 0;
+            }
+        }
+    }
 
+}
 }

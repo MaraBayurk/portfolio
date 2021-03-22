@@ -17,6 +17,8 @@ class DemoCarousel extends Component {
             showArrows={false}
             showIndicators={false}
             showThumbs={false}
+            transitionTime={0}
+
             >
                 <div>
                     <img src={login} alt=""/>

@@ -1,10 +1,11 @@
+@import "../../../styles/bp.scss";
+
 $celeste: #46867D;
 $naranja-claro: #ffbd59;
 $naranja-oscuro: #FE6625;
 $marron: #34322a;
 $gris: #525252 ;
 $gris-claro: #d9d9d9;
-
 $blanco: #fff;
 
 .containerOne{
@@ -59,4 +60,30 @@ $blanco: #fff;
           color: #fff;
       }
   }
+
+}
+@include respond-to("default"){
+    .containerOne{
+        grid-template-columns: none;
+        grid-template-rows: 60% 40%;
+        height: 100vh;
+        align-self: center;
+        .container_img{
+            div{
+             .corner{
+                 display: none;
+             }
+            }
+        }
+        .containerName{
+            margin:0;
+            padding: 0 1rem 0 0;
+            h1{
+                font-size: 3rem;
+            }
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+        }
 }

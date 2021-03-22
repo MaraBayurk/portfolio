@@ -1,3 +1,5 @@
+@import "../../../styles/bp.scss";
+
 $celeste: #46867D;
 $naranja-claro: #ffbd59;
 $naranja-oscuro: #FE6625;
@@ -49,6 +51,20 @@ $azul: #013D5B;
                 text-shadow: 2px 3px 10px grey;
             }
 
+        }
+    }
+}
+@include respond-to("default"){
+    .containerTech{
+        .tech{
+            grid-template-columns: 33% 33% 33%;
+            padding: 0;
+            div{
+                width: 70%;
+                h4{
+                    font-size: 1rem;
+                }
+            }
         }
     }
 }

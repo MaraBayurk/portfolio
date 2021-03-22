@@ -1,3 +1,5 @@
+@import "../../../styles/bp.scss";
+
 $celeste: #46867D;
 $naranja-claro: #ffbd59;
 $naranja-oscuro: #FE6625;
@@ -82,4 +84,16 @@ $gris-claro: #d9d9d9;
              }
          }
      }
+}
+@include respond-to("default"){
+    .containerAbout{
+        .containerContact{
+            grid-template-rows: 65% 35%;
+            grid-template-columns: none;
+            .datos{
+                margin: 2rem 0;
+                 align-self: center;
+            }
+        }
+    }
 }

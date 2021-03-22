@@ -35,7 +35,7 @@ export default function SectionThree(){
             <div className={styles.description}>
             <h2>Potrero App Student</h2>
             <p> App para el manejo de los estudiantes que asisten a clases de apoyo en la Fundación El Potrero.</p>
-           <p> Estuve enfocada en el desarrollo de la app mobile utilizando React Native con Expo.</p> 
+           <p> Estuve enfocada en el desarrollo de la app mobile utilizando React Native.</p> 
             <p><b>Front:</b>  React Native, Expo, TypeScript, React Navigation, Redux.</p>
             <p><b>Back:</b> TypeScript, Express, Sequelize, PostgreSql.-</p>
             </div>

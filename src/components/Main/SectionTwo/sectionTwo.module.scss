@@ -1,3 +1,5 @@
+@import "../../../styles/bp.scss";
+
 $celeste: #46867D;
 $naranja-claro: #ffbd59;
 $naranja-oscuro: #FE6625;
@@ -23,6 +25,17 @@ $blanco: #fff;
             color:rgb(230, 230, 230);
             padding-left: 1rem;
             line-height: 2.5rem
+        }
+    }
+}
+@include respond-to("default"){
+    .containerAboutMe{
+        padding-top: 1rem;
+        div{
+            margin: 1.5rem;
+            p{
+                line-height: 2rem ;
+            }
         }
     }
 }

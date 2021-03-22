@@ -18,9 +18,10 @@ class DemoCarousel extends Component {
             showArrows={false}
             showIndicators={false}
             showThumbs={false}
+            transitionTime={0}
             >
                 <div>
-                    <img src={home} alt=""/>
+                    <img src={home} alt="" />
                 </div>
                 <div>
                     <img src={catalogue} alt="" />
