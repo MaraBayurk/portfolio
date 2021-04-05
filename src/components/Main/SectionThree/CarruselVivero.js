@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import { Carousel } from 'react-responsive-carousel';
-import lasrosas from '../../../images/lasrosas.jpeg';
-import catalogue from '../../../images/catalogue.jpeg';
-import checkout from '../../../images/checkout.jpeg';
+import lasrosashome from '../../../images/lasrosashome.jpeg';
+import lasrosaslogin from '../../../images/lasrosasloginn.jpeg';
+import lasrosasproduct from '../../../images/lasrosasproduct.jpeg';
 
 
 class DemoCarousel extends Component {
@@ -21,14 +21,14 @@ class DemoCarousel extends Component {
             transitionTime={0}
             >
                 <div>
-                    <img src={lasrosas} alt="" />
-                </div>
-                {/* <div>
-                    <img src={catalogue} alt="" />
+                    <img src={lasrosashome} alt="" />
                 </div>
                 <div>
-                    <img src={checkout} alt=""/>
-                </div> */}
+                    <img src={lasrosaslogin} alt="" />
+                </div>
+                <div>
+                    <img src={lasrosasproduct} alt=""/>
+                </div>
             </Carousel>
         );
     }
