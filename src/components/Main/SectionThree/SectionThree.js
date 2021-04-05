@@ -55,7 +55,7 @@ export default function SectionThree(){
             <h2>Las Rosas</h2>
             <p> Desarrollo de Ecommerce para Vivero Las Rosas </p>
             <p>Implementacion de catalogo, checkout, sistema de reviews, mercado pago, panel de administracion. </p> 
-            <p><b>Front:</b> React, Redux, Axios, Material UI, Sass.</p>
+            <p><b>Front:</b> React, Redux, Axios, Sass.</p>
             <p><b>Back:</b> Express, Sequelize, PostgreSql.-</p>
             </div>
           </div>
