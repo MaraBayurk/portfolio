@@ -15,8 +15,8 @@ export default function SectionOne(){
               </div>
             </div>
             <div className={styles.containerName}>
-              <h1>Mara Valentina Bayurk</h1>
-              <h3>Full Stack Developer</h3>
+              <h1> Mara Valentina Bayurk </h1>
+              <h3>Full Stack Developer </h3>
             </div>
         </header>
 

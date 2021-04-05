@@ -1,6 +1,7 @@
 import styles from './sectionThree.module.scss';
 import CarruselApp from './CarruselApp.js';
 import CarruselEcommerce from './CarruselEcommerce.js';
+import CarruselVivero from './CarruselVivero.js';
 
 
 export default function SectionThree(){
@@ -26,6 +27,8 @@ export default function SectionThree(){
               <p><b>Back:</b> Express, Sequelize, PostgreSql.</p>
             </div>
           </div>
+
+
           <div className={styles.containerCard} >
           <div className={styles.containerImg}>
             <a href="#">
@@ -38,6 +41,22 @@ export default function SectionThree(){
            <p> Estuve enfocada en el desarrollo de la app mobile utilizando React Native.</p> 
             <p><b>Front:</b>  React Native, Expo, TypeScript, React Navigation, Redux.</p>
             <p><b>Back:</b> TypeScript, Express, Sequelize, PostgreSql.-</p>
+            </div>
+          </div>
+
+
+          <div className={styles.containerCard} >
+          <div className={styles.containerImg}>
+          <a href="https://lasrosas.herokuapp.com/" target="_BLANK" rel="noreferrer">
+              <CarruselVivero/>
+            </a>
+            </div>
+            <div className={styles.description}>
+            <h2>Las Rosas</h2>
+            <p> Desarrollo de Ecommerce para Vivero Las Rosas </p>
+            <p>Implementacion de catalogo, checkout, sistema de reviews, mercado pago, panel de administracion. </p> 
+            <p><b>Front:</b> React, Redux, Axios, Material UI, Sass.</p>
+            <p><b>Back:</b> Express, Sequelize, PostgreSql.-</p>
             </div>
           </div>
 
