@@ -31,7 +31,7 @@ export default function SectionThree(){
 
           <div className={styles.containerCard} >
           <div className={styles.containerImg}>
-            <a href="#">
+            <a href="https://drive.google.com/file/d/1fnFZTy71Ya9ntCigJrjz8l5ONj_66Bq_/view">
               <CarruselApp/>
             </a>
             </div>
