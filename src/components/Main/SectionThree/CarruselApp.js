@@ -21,13 +21,13 @@ class DemoCarousel extends Component {
 
             >
                 <div>
-                    <img src={login} alt=""/>
+                    <img src={login} alt="login"/>
                 </div>
                 <div>
-                    <img src={calendario} alt=""/>
+                    <img src={calendario} alt="calendar"/>
                 </div>
                 <div>
-                    <img src={clases} alt=""/>
+                    <img src={clases} alt="class"/>
                 </div>
             </Carousel>
         );

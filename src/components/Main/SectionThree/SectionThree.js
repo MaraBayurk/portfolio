@@ -2,6 +2,7 @@ import styles from './sectionThree.module.scss';
 import CarruselApp from './CarruselApp.js';
 import CarruselEcommerce from './CarruselEcommerce.js';
 import CarruselVivero from './CarruselVivero.js';
+import CarruselFormReactNative from './CarruselFormReactNative';
 
 
 export default function SectionThree(){
@@ -31,7 +32,7 @@ export default function SectionThree(){
 
           <div className={styles.containerCard} >
           <div className={styles.containerImg}>
-            <a href="https://drive.google.com/file/d/1fnFZTy71Ya9ntCigJrjz8l5ONj_66Bq_/view">
+            <a href="https://drive.google.com/file/d/1fnFZTy71Ya9ntCigJrjz8l5ONj_66Bq_/view"  target="_BLANK" rel="noreferrer">
               <CarruselApp/>
             </a>
             </div>
@@ -57,6 +58,24 @@ export default function SectionThree(){
             <p>Implementacion de catalogo, checkout, sistema de reviews, mercado pago, panel de administracion. </p> 
             <p><b>Front:</b> React, Redux, Axios, Sass.</p>
             <p><b>Back:</b> Express, Sequelize, PostgreSql.-</p>
+            </div>
+          </div>
+
+          <div className={styles.containerCard} >
+          <div className={styles.containerImg}>
+          <a href="https://github.com/MaraBayurk/Form-React-Native-CLI" target="_BLANK" rel="noreferrer">
+              <CarruselFormReactNative/>
+            </a>
+            </div>
+            <div className={styles.description}>
+            <h2>Formulario React Native CLI</h2>
+            <p>Formulario realizado para cumplir con propositos de envio de informacion detallada del cliente, incluye
+        los siguientes inputs: nombre, apellido, fecha de nacimiento ( con incorpacion de calendario dinámico).
+              </p> 
+            <p>Ademas cuenta con las siguientes features: </p>
+            <p>Toma de imagen Selfie <br/> Ubicacion en tiempo real</p>
+            <p>Realizado con: <b>React Native CLI</b></p>
+
             </div>
           </div>
 

@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import { Carousel } from 'react-responsive-carousel';
-import home from '../../../images/home.jpeg';
-import catalogue from '../../../images/catalogue.jpeg';
-import checkout from '../../../images/checkout.jpeg';
+import uno from '../../../images/formReactNative/uno.jpeg';
+import dos from '../../../images/formReactNative/dos.jpeg';
+import tres from '../../../images/formReactNative/tres.jpeg';
+import cuatro from '../../../images/formReactNative/cuatro.jpeg';
 
 
 class DemoCarousel extends Component {
@@ -21,13 +22,16 @@ class DemoCarousel extends Component {
             transitionTime={0}
             >
                 <div>
-                    <img src={home} alt="home" />
+                    <img src={uno} alt="form" />
                 </div>
                 <div>
-                    <img src={catalogue} alt="catalogue" />
+                    <img src={dos} alt="calendar" />
                 </div>
                 <div>
-                    <img src={checkout} alt="checkout"/>
+                    <img src={tres} alt="form-complete"/>
+                </div>
+                <div>
+                    <img src={cuatro} alt="send"/>
                 </div>
             </Carousel>
         );

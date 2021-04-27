@@ -21,13 +21,13 @@ class DemoCarousel extends Component {
             transitionTime={0}
             >
                 <div>
-                    <img src={lasrosashome} alt="" />
+                    <img src={lasrosashome} alt="home" />
                 </div>
                 <div>
-                    <img src={lasrosaslogin} alt="" />
+                    <img src={lasrosaslogin} alt="login" />
                 </div>
                 <div>
-                    <img src={lasrosasproduct} alt=""/>
+                    <img src={lasrosasproduct} alt="product"/>
                 </div>
             </Carousel>
         );
